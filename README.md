@@ -231,9 +231,19 @@ Publish the website in the given URL.
 
 ![output](./static/img/o2.png)
 
-## CODE VALIDATION REPORT:
-![output](./static/img/report1.jpg)
+![output](./static/img/o3.png)
 
-![output](./static/img/report2.jpg)
+![output](./static/img/o4.png)
+
+![output](./static/img/o4.png)
+
+## CODE VALIDATION REPORT:
+![output](./static/img/v1.png)
+
+![output](./static/img/v2.png)
+
+![output](./static/img/v3.png)
+
+![output](./static/img/v4.png)
 ## RESULT:
 Thus a website is designed for the chip manufacturing company and is hosted in the URL http://safa.student.saveetha.in:8000/home. HTML code is validated.
