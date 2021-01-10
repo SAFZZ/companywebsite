@@ -235,7 +235,7 @@ Publish the website in the given URL.
 
 ![output](./static/img/o4.png)
 
-![output](./static/img/o4.png)
+![output](./static/img/o5.png)
 
 ## CODE VALIDATION REPORT:
 ![output](./static/img/v1.png)
