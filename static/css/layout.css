@@ -1,10 +1,12 @@
 *{
       box-sizing: border-box;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: large;
+      font-style: normal;
 }
 body{
-    background-color: whitesmoke;
-    color:  #17421D;
+    background-color: black;
+    color:  black;
 }
 .container{
     width: 1080px;
@@ -19,13 +21,14 @@ body{
     display: block;
     width: 100%;
     height: 250px;
-    text-align: center;
-    font-size: xx-large;
-    background-image : url("/static/img/chip1.jpg");
-    background-size:cover;
-    margin: 0px 0px 0px 0px;
-    padding-top: 150px;
-    color: #17421D;
+    text-align: center ;
+    font-size: 50pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image : url("/static/img/chipp.jpg");
+    background-size: larger;
+    margin: 10px 0px 0px 0px;
+    padding-top: 100px;
+    color: black;
 }
 
 .menu{
@@ -33,7 +36,7 @@ body{
     width: 100%;
     height: 50px;
     font-size: larger;
-    background-color: #17421D;
+    background-color: black;
     text-align: center;
     padding-top: 15px;
     margin: 0px 0px 0px 0px;
@@ -58,7 +61,7 @@ body{
     min-height: 500px;
     margin: 0px 0px 0px 0px;
     border-width: 1px;
-    border-color: white;
+    border-color: black;
     border-style: solid;
 }
 .homecontent{
@@ -66,14 +69,18 @@ body{
     margin: 10px 10px 10px 10px;
 }
 .homecontent h1{
-    text-align: left;    
+    text-align: center;  
+    font-style: normal;  
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .homecontent img{
-    float: right;
-    width: 400px;
-    height: 300px;
-    margin-left: 10px;
+    float: center;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right:auto ;
 }
+
 
 .contenttext{
     text-align: justify;
@@ -85,16 +92,19 @@ body{
 }
 
 .productcontent h1{
-    text-align: left;    
+    text-align: center; 
+    font-size: xx-large;   
 }
 
 .productitems{
     display: block;
+    font-size: larger;
+    
 }
 
 .productitem{
     display: inline-block;
-    width: 30%;
+    width: 50%;
     height: 250px;
     text-align: center;
 }
@@ -102,7 +112,7 @@ body{
 .productitem img{
     width: 100px;
     height: 100px;
-    display: block;
+    display: inline;
 }
 .productitem .itemimage{
     display: block;
@@ -119,13 +129,47 @@ body{
     display: block;
 }
 
+.peoplecontent{
+    min-height: 500px;
+    margin: 10px 10px 10px 10px;
+}
+.peoplecontent img{
+    width:50%;
+    height: auto;
+    display: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.peoplecontent h1{
+    text-align: center; 
+    font-size: larger;   
+}
+
+.contactcontent h1{
+    text-align: center; 
+    font-size: xx-large;   
+    font-family: 'Times New Roman', Times, serif;
+}
+.contactcontent h2{
+    text-align: center; 
+    font-size: xx-large;   
+    font-family: cursive;
+}
 .footer{
     display: block;
     width: 100%;
     height: 40px;
-    background-color: #17421D;
+    background-color: black;
     text-align: center;
     padding-top: 10px;
     margin: 0px 0px 0px 0px;
     color: rgb(218, 214, 214);
 }
+
